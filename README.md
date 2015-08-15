@@ -6,9 +6,13 @@ Exercise along with http://tour.golang.org
 ### Machine
 
 >`# cat /etc/lsb-release
+
 DISTRIB_ID=Ubuntu
+
 DISTRIB_RELEASE=14.04
+
 DISTRIB_CODENAME=trusty
+
 DISTRIB_DESCRIPTION="Ubuntu 14.04.3 LTS"
 `
 
@@ -24,7 +28,7 @@ set PATH environment variable before first use `go` command, or add your bashrc 
 
 >`export PATH=$PATH:/usr/local/go/bin`
 
-## gotour is "A Tour of Go" 
+## gotour is detailed at "A Tour of Go" section in golang.org doc 
 
 ### Get source code
 
