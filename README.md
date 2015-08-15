@@ -1,2 +1,2 @@
 # go-to-exercise
-individual exercise along with http://tour.golang.org
+Exercise along with http://tour.golang.org
