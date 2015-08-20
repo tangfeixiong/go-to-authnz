@@ -5,16 +5,16 @@ Exercise along with http://tour.golang.org
 
 ### Machine
 
->`# cat /etc/lsb-release
+># cat /etc/lsb-release
 
-DISTRIB_ID=Ubuntu
+>DISTRIB_ID=Ubuntu
 
-DISTRIB_RELEASE=14.04
+>DISTRIB_RELEASE=14.04
 
-DISTRIB_CODENAME=trusty
+>DISTRIB_CODENAME=trusty
 
-DISTRIB_DESCRIPTION="Ubuntu 14.04.3 LTS"
-`
+>DISTRIB_DESCRIPTION="Ubuntu 14.04.3 LTS"
+
 
 ### Install go
 
