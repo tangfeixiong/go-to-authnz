@@ -5,6 +5,7 @@ import (
     "fmt"
 )
 
+// Parabola Function: y * y = 2 * p * x
 func main() {
     p, x := 2.0, 1.0
     _, angleParabola := computeDerivativeAndAngle(p, x)
