@@ -1,0 +1,60 @@
+package: github.com/tangfeixiong/go-to-authnz
+import:
+- package: github.com/cesanta/docker_auth
+  version: 1.2.1
+  subpackages:
+  - auth_server/server
+- package: github.com/cesanta/glog
+- package: github.com/coreos/dex
+  version: v2.5.0
+  subpackages:
+  - api
+  - server
+  - storage
+  - storage/kubernetes
+  - storage/memory
+  - storage/sql
+  - version
+- package: github.com/facebookgo/httpdown
+- package: github.com/ghodss/yaml
+  version: v1.0.0
+- package: github.com/go-fsnotify/fsnotify
+  version: v1.4.2
+- package: github.com/kr/pty
+  version: v1.0.0
+- package: github.com/ory/hydra
+  version: v0.9.12
+  subpackages:
+  - client
+  - cmd
+  - compose
+  - config
+  - firewall
+  - health
+  - integration
+  - jwk
+  - metric
+  - oauth2
+  - pkg
+  - policy
+  - rand
+  - sdk
+  - warden
+- package: github.com/sirupsen/logrus
+- package: github.com/spf13/cobra
+- package: golang.org/x/crypto
+  subpackages:
+  - acme/autocert
+  - bcrypt
+- package: golang.org/x/tour
+  subpackages:
+  - pic
+  - reader
+  - tree
+  - wc
+- package: google.golang.org/grpc
+  version: v1.5.1
+  subpackages:
+  - credentials
+- package: gopkg.in/fsnotify.v1
+  version: v1.4.2
